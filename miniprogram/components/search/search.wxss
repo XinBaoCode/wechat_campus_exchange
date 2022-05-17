@@ -1,0 +1,4 @@
+/* components/search.wxss */
+.search{
+  border-radius: 20px;
+}

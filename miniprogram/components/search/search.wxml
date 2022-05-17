@@ -1,0 +1,5 @@
+<view class="search">
+  <van-search value="{{ value }}" background="#f5b041" placeholder="{{placeholder}}" use-action-slot bind:change="onChange" bind:search="onSearch">
+    <view slot="action" bind:tap="onClick">搜索</view>
+  </van-search>
+</view>

@@ -1,0 +1,8 @@
+<view>
+  <component-search></component-search>
+  <van-grid column-num="4">
+    <van-grid-item use-slot text="文字" wx:for="{{ 8 }}" wx:for-item="index">
+      <image style="width: 100%; height: 90px;" src="../../img/{{ index + 1 }}.svg" />
+    </van-grid-item>
+  </van-grid>
+</view>
